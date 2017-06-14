@@ -25,6 +25,14 @@ namespace ConsoleApp
             {
                 mother.Subtract(1);
                 sally.Subtract(1);
+
+                if (mother.Amount == 60)
+                {
+                    mother.Subtract(AddHelper.Add(1,1));
+                    sally.Subtract(AddHelper.Add(1, 1));
+                    years.Add(1);
+                }
+
                 years.Add(1);
             }
 

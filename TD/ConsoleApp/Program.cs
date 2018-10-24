@@ -48,7 +48,10 @@ namespace ConsoleApp
         int value5;
         int value2;
         int value6;
-        string value7;
+        int value7;
+        int value8;
+        int value9;
+        string value10;
 
     }
 }
